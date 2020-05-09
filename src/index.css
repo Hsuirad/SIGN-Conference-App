@@ -5,9 +5,48 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: ;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html{
+  scroll-behavior: smooth;
+}
+
+/*
+
+IMPORTANT INFOOOOOOO!!!!!!!!!!!!!!!
+
+To create a paralax scrolling effect make a margin on each side with white
+then make a background for the specific thing, example:
+
+<div class = "margin"></div>
+
+<section class = "parallax">
+  <div class = "parallax-inner">
+    <h1>Parallax</h1>
+  </div>
+</seciton>
+
+<div class = "margin"></div>
+
+style:
+
+.margin{
+  margin: 75% 0 0 0;
+}
+
+.parallax{
+  background: url(somebackground) repeat fixed 100%;
+}
+
+.parallax-inner{
+  padding-top:30%;
+  padding-bottom:30%;
+}
+
+*/
